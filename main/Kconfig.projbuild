@@ -1,0 +1,17 @@
+menu "Environment Logger"
+
+config EL_BRINGUP
+    bool "Bring-up build (diagnostic boot)"
+    default n
+    help
+        First power-up of a new board: boots into DIAG mode (board, storage, USB console only),
+        nothing runs automatically. Never ship with this enabled.
+
+config EL_FIXTURE_DETECT
+    bool "Factory boot when the loopback plug is detected (DI1 active at power-up)"
+    default n
+    help
+        Boots into the FACTORY self-test mode when DI1 is active at power-up (loopback fixture,
+        docs/DIAGNOSTICS.md). Off by default: DI1 may be wired to something else.
+
+endmenu
