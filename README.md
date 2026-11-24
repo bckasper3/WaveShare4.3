@@ -48,8 +48,8 @@ reviewed in a PC simulator. Testing on real hardware is still to be done.
 
 Details: [docs/HARDWARE.md](docs/HARDWARE.md).
 
-### Carrier board, case and fixture
-Design files for a carrier board that sits behind the display (battery, charging, USB-C
+### Expansion board, case and fixture
+Design files for an expansion board that sits behind the display (battery, charging, USB-C
 host/device, 12 V input, RS-485 and I/O on a DB9) are in [hardware/](hardware/README.md):
 EasyEDA Pro project, Gerbers, BOM and pick-and-place for REV-8 (built and tested), REV-9 and
 REV-10 (latest), plus a 3D-printable desktop case and a bench fixture (STEP, STL, SolidWorks).
