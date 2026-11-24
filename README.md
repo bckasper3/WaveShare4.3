@@ -49,11 +49,11 @@ reviewed in a PC simulator. Testing on real hardware is still to be done.
 Details: [docs/HARDWARE.md](docs/HARDWARE.md).
 
 ### Carrier board, case and fixture
-Design files for the Kasper Backpack carrier board (battery, charging, USB-C host/device,
-12 V input, RS-485 and I/O on a DB9) are in [hardware/](hardware/README.md): EasyEDA Pro
-project, Gerbers, BOM and pick-and-place for REV-8 (built and tested), REV-9 and REV-10 (latest),
-plus a 3D-printable desktop case and a bench fixture (STEP, STL, SolidWorks). Design notes and
-DNP table: [hardware/OSHWLab_Kasper_Backpack.md](hardware/OSHWLab_Kasper_Backpack.md).
+Design files for a carrier board that sits behind the display (battery, charging, USB-C
+host/device, 12 V input, RS-485 and I/O on a DB9) are in [hardware/](hardware/README.md):
+EasyEDA Pro project, Gerbers, BOM and pick-and-place for REV-8 (built and tested), REV-9 and
+REV-10 (latest), plus a 3D-printable desktop case and a bench fixture (STEP, STL, SolidWorks).
+The hardware README links the design notes and DNP table.
 
 ## Build and flash (ESP-IDF 5.5.x)
 The scripts expect ESP-IDF in `C:\esp\v5.5.6\esp-idf` (or set `ENVLOGGER_IDF_PATH`) and put the
