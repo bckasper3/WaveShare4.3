@@ -1,0 +1,21 @@
+Project Title: 		PCB FILES 26 - BARRERY BOARD FOR DESKTOP PPM DEVICE -3
+Borard Title: 		kasper_carrier
+PCB Title: 		PCB1
+Time: 		2026-10-30 11:59:54
+
+Borard Size: 		5175mil x 2060mil
+Layers: 		Total 24, Copper 4
+
+Devices: 		40
+Footprints: 		29
+Components: 		Total 102,Top Layer 98,Bottom Layer 4
+Pads: 		Total 311, Top Side Table Stick 233,Bottom Side Table Stick 0,Metallized Hole 78, Nonmetallic Hole 0
+Nets: 		Total 59, Unrouted 0
+Test Point: 		Nets Total 59, Has Testpoint Nets 0, Testpoint Coverage 0%
+ 		Total 0, Top Side Testpoints 0, Bottom Side Testpoints 0
+
+Slot Region: 		14
+Vias: 		Total 173, Through Vias 173, Blind Or Buried Vais 0
+CopperAreas: 		4
+Length of Tracks: 		162032.9mil
+
